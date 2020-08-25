@@ -7,6 +7,7 @@ using System.Web;
 
 namespace RestaurantRaterAPI.Models
 {
+    //Restaurant Entity (the class that gets stored in the database)
     public class Restaurant
     {
         [Key]
