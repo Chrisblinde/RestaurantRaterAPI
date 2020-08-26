@@ -7,13 +7,13 @@ namespace RestaurantRaterAPI.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.0.0-20911")]
-    public sealed partial class Initialmigration : IMigrationMetadata
+    public sealed partial class AddedRatingTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initialmigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedRatingTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202008251605187_initialmigration"; }
+            get { return "202008261345072_AddedRatingTable"; }
         }
         
         string IMigrationMetadata.Source

@@ -12,5 +12,6 @@ namespace RestaurantRaterAPI.Models
         
 
         public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<Rating> Rating { get; set; }
     }
 }
